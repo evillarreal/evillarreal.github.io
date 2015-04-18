@@ -1,7 +1,7 @@
 /*Stylesheet for Float: Angelina Jolie Edition!*/
 
 #background{
-	background-image: url('http://nice-cool-pics.com/data/media/22/angelina_jolie__photoshoot.jpg');
+	background-image: url('https://scontent-lga.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10532900_10152885251441483_3808958820867707015_o.jpg');
 	background-repeat: no-repeat;
 	background-color: black;
 	position:absolute;
@@ -14,62 +14,77 @@
 }
 
 #menubar {
-	float: left;
 	clear: both;
 	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#menubar a{
+	display: inline-block;
 }
 
 #menubar li{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Courier New Bold', monospace;
 	font-size: 20px;
-	display:inline-block;
+	display: inline-block;
 	color: white;
-	background-color: #000047;
+	background-color: ;
 	text-align: center;
-	line-height: 70px;
-	 width: 200px;
+	line-height: 40px;
+	width: 200px;
 	float: left;
-	opacity: .8;
+	opacity: 1;
 }
 
 #menubar li:hover{
-	background-color: #E4E4EB;
-	color: gray;
+	background-color: white;
+	opacity: .7;
+	color: black;
 }
 
 #menubar li ul{
 	padding: 0px;
+	text-align: center;
 }
 
-#menubar li li{
-	background-color: black;
-	float: left;
-	color: gray;
-	width: 200px;
-}
 
+a:link{
+	text-decoration: none;
+	color: #055912;
+}
 
 a:visited{
 	text-decoration: none;
-	color: white;
+	color: gray;
 }
-
-h1{
-	font-family: 'Roboto', sans-serif;
-	position: absolute;
-}
-
-
 /*CSS for index.html*/
 
 .title{
-	position: absolute;
-	width: 300px;
-	left: 120px;
-	top: 300px;
-	font-family: 'Cinzel Decorative', cursive;
-	font-size: 50px;
+	height: auto;
+	line-height: auto;
+	font-family: 'Courier New Bold', monospace;
+	color: white;
+	font-size: 48px;
 	text-align: center;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+#title{
+	height: auto;
+	line-height: auto;
+	font-family: 'Courier New Bold', monospace;
+	color: white;
+	font-size: 58px;
+	text-align: center;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25%;
 }
 
 /*CSS for about.html*/
@@ -77,10 +92,14 @@ h1{
 .about_text{
 	background-color: rgba(255, 255, 255, 0.8);
 	color: black;
-	width: 80%;
+	width: 660px;
 	height: auto;
 	padding: 30px;
-	font-family: 'Roboto', sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Courier New';
+	overflow: scroll;
+	height: 450px;
 }
 
 .see_more{
@@ -88,20 +107,42 @@ h1{
 	font-size: 20px;
 }
 
+/*CSS for more.html*/
+
+.more_text{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	width: 660px;
+	height: auto;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Courier New';
+	overflow: scroll;
+	height: 450px;
+	text-align: center;
+}
+
 /*CSS for photogallery.html*/
 
 .gallery{
-	background-color: rgba(0, 0, 0, 0.8);
-	width: 60%;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 660px;
 	height: auto;
 	padding: 30px;
-	position: absolute;
 	top: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: scroll;
+	height: 450px;
 }
 
 #mainimage img{
 	height: 200px;
 	width: auto;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
