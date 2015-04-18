@@ -1,0 +1,115 @@
+/*Stylesheet for Float: Angelina Jolie Edition!*/
+
+#background{
+	background-image: url('http://nice-cool-pics.com/data/media/22/angelina_jolie__photoshoot.jpg');
+	background-repeat: no-repeat;
+	background-color: black;
+	position:absolute;
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	overflow: auto;
+}
+
+#menubar {
+	float: left;
+	clear: both;
+	font-size: 30px;
+}
+
+#menubar li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	display:inline-block;
+	color: white;
+	background-color: #000047;
+	text-align: center;
+	line-height: 70px;
+	 width: 200px;
+	float: left;
+	opacity: .8;
+}
+
+#menubar li:hover{
+	background-color: #E4E4EB;
+	color: gray;
+}
+
+#menubar li ul{
+	padding: 0px;
+}
+
+#menubar li li{
+	background-color: black;
+	float: left;
+	color: gray;
+	width: 200px;
+}
+
+
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+}
+
+
+/*CSS for index.html*/
+
+.title{
+	position: absolute;
+	width: 300px;
+	left: 120px;
+	top: 300px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+/*CSS for about.html*/
+
+.about_text{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	width: 80%;
+	height: auto;
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.see_more{
+	color: #000047;
+	font-size: 20px;
+}
+
+/*CSS for photogallery.html*/
+
+.gallery{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 60%;
+	height: auto;
+	padding: 30px;
+	position: absolute;
+	top: 250px;
+}
+
+#mainimage img{
+	height: 200px;
+	width: auto;
+
+}
+
+#float_img img{
+	position:relative;
+	width: 100px;
+	top: -50px;
+}
+
+
+
