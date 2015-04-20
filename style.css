@@ -2,7 +2,7 @@
 
 #background{
 	background-image: url('https://scontent-lga.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10532900_10152885251441483_3808958820867707015_o.jpg');
-	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: black;
 	position:absolute;
 	min-height: 100%;
@@ -143,6 +143,16 @@ a:visited{
 	display: inline-block;
 	margin-right: auto;
 	margin-left: auto;
+
+}
+
+#mainimageopaque img{
+	height: 200px;
+	width: auto;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	opacity: .8;
 
 }
 
