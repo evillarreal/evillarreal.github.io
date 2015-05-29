@@ -1,15 +1,4 @@
 $(document).ready(function() {
-	$("#moremenu").hide();
-	$("#more").css('cursor', 'pointer');
-	$("#more").hover(function(){
-		$("#moremenu").toggle(300);
-	});
-
-	$("p").hide();
-	$(".see_more").css('cursor', 'pointer');
-	$(".see_more").click(function(){
-		$(".see_more>p").toggle(300);
-	});
 
 	$("img").css('cursor', 'pointer');
 	$("img").click(function(){

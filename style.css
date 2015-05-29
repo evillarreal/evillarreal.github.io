@@ -13,6 +13,7 @@
 	overflow: auto;
 }
 
+/*CSS for menubar on all pages but the home page*/
 #menubar {
 	clear: both;
 	font-size: 30px;
@@ -30,12 +31,10 @@
 	font-size: 20px;
 	display: inline-block;
 	color: white;
-	background-color: ;
 	text-align: center;
 	line-height: 40px;
 	width: 200px;
 	float: left;
-	opacity: 1;
 }
 
 #menubar li:hover{
@@ -49,6 +48,7 @@
 	text-align: center;
 }
 
+/*CSS for social media footer on the home page*/
 #footer {
 	clear: both;
 	font-size: 30px;
@@ -69,12 +69,10 @@
 	font-size: 15.5px;
 	display: inline-block;
 	color: white;
-	background-color: ;
 	text-align: center;
 	line-height: 20px;
 	width: 100px;
 	float: left;
-	opacity: 1;
 }
 
 #footer li:hover{
@@ -88,10 +86,9 @@
 	text-align: center;
 }
 
-
+/*CSS for hyperlinks*/
 a:link{
 	text-decoration: none;
-	/*color: #055912; */
 	color: black;
 }
 
@@ -104,13 +101,7 @@ a:visited{
 	color: gray;
 }
 
-h1 {
-	text-align: center;
-	font-family: 'Courier New';
-	font-weight: bold;
-	font-size: 16px;
 
-}
 /*CSS for index.html*/
 
 .title{
@@ -141,7 +132,7 @@ h1 {
 
 /*CSS for about.html*/
 
-.about_text{
+.resume_text{
 	background-color: rgba(255, 255, 255, 0.8);
 	color: black;
 	height: auto;
@@ -149,29 +140,18 @@ h1 {
 	bottom: 7%;
 	position: fixed;
 	width: 65%;
-	margin-left: 18.5%;
-	margin-right: 18.5%;
+	margin-left: 15%;
+	margin-right: 22%;
 	padding: 30px;
 	font-family: 'Courier New';
 	overflow: scroll;
 }
 
-/*CSS for more.html*/
-
-.more_text{
-	background-color: rgba(255, 255, 255, 0.8);
-	color: black;
-	height: auto;
-	top: 170px;
-	bottom: 7%;
-	position: fixed;
-	width: 65%;
-	margin-left: 18.5%;
-	margin-right: 18.5%;
-	padding: 30px;
-	font-family: 'Courier New';
-	overflow: scroll;
+h1 {
 	text-align: center;
+	font-family: 'Courier New';
+	font-weight: bold;
+	font-size: 16px;
 }
 
 /*CSS for photogallery.html*/
@@ -183,8 +163,8 @@ h1 {
 	bottom: 7%;
 	position: fixed;
 	width: 65%;
-	margin-left: 18.5%;
-	margin-right: 18.5%;
+	margin-left: 15%;
+	margin-right: 22%;
 	padding: 30px;
 	text-align: center;
 	overflow-x: scroll;
@@ -196,7 +176,6 @@ h1 {
 	display: inline-block;
 	margin-right: auto;
 	margin-left: auto;
-
 }
 
 #mainimageopaque img{
@@ -206,9 +185,24 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	opacity: .8;
-
 }
 
+/*CSS for writing.html*/
 
+.writing_text{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	height: auto;
+	top: 170px;
+	bottom: 7%;
+	position: fixed;
+	width: 65%;
+	margin-left: 15%;
+	margin-right: 22%;
+	padding: 30px;
+	font-family: 'Courier New';
+	overflow: scroll;
+	text-align: center;
+}
 
 
