@@ -49,15 +49,67 @@
 	text-align: center;
 }
 
+#footer {
+	clear: both;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	bottom: 5px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+#footer a{
+	display: inline-block;
+}
+
+#footer li{
+	font-family: 'Courier New Bold', monospace;
+	font-size: 15.5px;
+	display: inline-block;
+	color: white;
+	background-color: ;
+	text-align: center;
+	line-height: 20px;
+	width: 100px;
+	float: left;
+	opacity: 1;
+}
+
+#footer li:hover{
+	background-color: white;
+	opacity: .7;
+	color: black;
+}
+
+#footer li ul{
+	padding: 0px;
+	text-align: center;
+}
+
 
 a:link{
 	text-decoration: none;
-	color: #055912;
+	/*color: #055912; */
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 a:visited{
 	text-decoration: none;
 	color: gray;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Courier New';
+	font-weight: bold;
+	font-size: 16px;
+
 }
 /*CSS for index.html*/
 
@@ -92,19 +144,16 @@ a:visited{
 .about_text{
 	background-color: rgba(255, 255, 255, 0.8);
 	color: black;
-	width: 660px;
 	height: auto;
+	top: 170px;
+	bottom: 7%;
+	position: fixed;
+	width: 65%;
+	margin-left: 18.5%;
+	margin-right: 18.5%;
 	padding: 30px;
-	margin-right: auto;
-	margin-left: auto;
 	font-family: 'Courier New';
 	overflow: scroll;
-	height: 450px;
-}
-
-.see_more{
-	color: #000047;
-	font-size: 20px;
 }
 
 /*CSS for more.html*/
@@ -112,14 +161,16 @@ a:visited{
 .more_text{
 	background-color: rgba(255, 255, 255, 0.8);
 	color: black;
-	width: 660px;
 	height: auto;
+	top: 170px;
+	bottom: 7%;
+	position: fixed;
+	width: 65%;
+	margin-left: 18.5%;
+	margin-right: 18.5%;
 	padding: 30px;
-	margin-right: auto;
-	margin-left: auto;
 	font-family: 'Courier New';
 	overflow: scroll;
-	height: 450px;
 	text-align: center;
 }
 
@@ -127,14 +178,16 @@ a:visited{
 
 .gallery{
 	background-color: rgba(255, 255, 255, 0.8);
-	width: 660px;
 	height: auto;
+	top: 170px;
+	bottom: 7%;
+	position: fixed;
+	width: 65%;
+	margin-left: 18.5%;
+	margin-right: 18.5%;
 	padding: 30px;
-	top: 250px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: scroll;
-	height: 450px;
+	text-align: center;
+	overflow-x: scroll;
 }
 
 #mainimage img{
@@ -156,11 +209,6 @@ a:visited{
 
 }
 
-#float_img img{
-	position:relative;
-	width: 100px;
-	top: -50px;
-}
 
 
 
