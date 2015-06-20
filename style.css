@@ -157,36 +157,46 @@ h1 {
 
 /*CSS for photogallery.html*/
 
-.gallery{
-	background-color: rgba(255, 255, 255, 0.8);
-	height: auto;
-	top: 170px;
-	bottom: 7%;
-	position: fixed;
-	width: 65%;
-	margin-left: 15%;
-	margin-right: 22%;
-	padding: 30px;
-	text-align: center;
-	overflow-x: scroll;
-}
+	.gallery{
+		background-color: rgba(255, 255, 255, 0.8);
+		height: 30px;
+		position: fixed;
+		width: 69.5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		padding: 3px;
+		text-align: center;
+		overflow-x: scroll;
+	}
 
-#mainimage img{
-	height: 100px;
-	width: auto;
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-}
+	#images img{
+		height: 30px;
+		width: auto;
+		display: inline-block;
+	} 
 
-#mainimageopaque img{
-	height: 100px;
-	width: auto;
-	display: inline-block;
-	margin-right: auto;
-	margin-left: auto;
-	opacity: .8;
-}
+    #scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
 
 /*CSS for writing.html*/
 
