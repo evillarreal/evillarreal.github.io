@@ -172,7 +172,7 @@ h1 {
 }
 
 #mainimage img{
-	height: 200px;
+	height: 100px;
 	width: auto;
 	display: inline-block;
 	margin-right: auto;
@@ -180,7 +180,7 @@ h1 {
 }
 
 #mainimageopaque img{
-	height: 200px;
+	height: 100px;
 	width: auto;
 	display: inline-block;
 	margin-right: auto;

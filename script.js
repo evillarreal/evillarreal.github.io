@@ -10,7 +10,7 @@ $(document).ready(function() {
 			$(this).animate({"height":"400", "width":"auto"});
 		}
 		else{
-			$(this).animate({"height":"200", "width":"auto"});
+			$(this).animate({"height":"100", "width":"auto"});
 		}
 	});
 
