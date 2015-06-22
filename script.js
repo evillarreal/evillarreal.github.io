@@ -23,13 +23,12 @@
 
         // Pause on hover
         scroller.hover(function(){
-            tweenToNewSpeed(0);
+            tweenToNewSpeed(8);
         }, function(){
             tweenToNewSpeed(controller.fullSpeed);
         });
 
-        //
-
+        // Captions become visible on hover
         var gallery = $('.gallery div#images');
         $('.captions').hide();
         gallery.hover(function(){
