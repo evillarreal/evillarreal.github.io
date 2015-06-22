@@ -28,6 +28,15 @@
             tweenToNewSpeed(controller.fullSpeed);
         });
 
+        //
+
+        var gallery = $('.gallery div#images');
+        $('.captions').hide();
+        gallery.hover(function(){
+ 			$('.captions').toggle();
+        });
+  
+
         // Scrolling management; start the automatical scrolling
         var doScroll = function()
         {
@@ -40,4 +49,6 @@
         setInterval(doScroll, 20);
         tweenToNewSpeed(controller.fullSpeed);
     	});
+
+
 
