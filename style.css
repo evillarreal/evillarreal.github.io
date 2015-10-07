@@ -1,7 +1,7 @@
 /*Stylesheet for Elizabeth Personal Website*/
 
 #background{
-	background-image: url('https://scontent-lga.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10532900_10152885251441483_3808958820867707015_o.jpg');
+	background-image: url('https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1922274_10152488036951483_1226603444349974965_n.jpg?oh=37a7145a0ae4f28e92093e2c307f53bd&oe=568621DB');
 	background-size: cover;
 	background-color: black;
 	position:absolute;
@@ -97,7 +97,7 @@ a:visited{
 	height: auto;
 	line-height: auto;
 	font-family: 'Courier New Bold', monospace;
-	color: white;
+	color: black;
 	font-size: 48px;
 	text-align: center;
 	width: auto;
