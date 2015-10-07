@@ -71,6 +71,10 @@
 	color: black;
 }
 
+#footer li ul{
+	text-align: center;
+}
+
 /*CSS for hyperlinks*/
 a:link{
 	text-decoration: none;
