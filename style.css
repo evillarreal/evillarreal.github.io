@@ -191,7 +191,9 @@ h1 {
     #scroller .captions ul {
     	color: white;
 		font-family: 'Courier New Bold', monospace;
-		top: 380px;
+		top:340px;
+		position: relative;
+		text-align: center;
     }
 
     #scroller ul {

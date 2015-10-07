@@ -12,7 +12,7 @@
         var viewportW = scroller.width();
 
         // Scrolling speed management
-        var controller = {curSpeed:0, fullSpeed:1};
+        var controller = {curSpeed:0, fullSpeed:2.5};
         var $controller = $(controller);
         var tweenToNewSpeed = function(newSpeed, duration)
         {
@@ -21,9 +21,9 @@
             $controller.stop(true).animate({curSpeed:newSpeed}, duration);
         };
 
-        // Pause on hover
+        // Change speed on hover
         scroller.hover(function(){
-            tweenToNewSpeed(8);
+            tweenToNewSpeed(0);
         }, function(){
             tweenToNewSpeed(controller.fullSpeed);
         });
