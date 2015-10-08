@@ -11,13 +11,42 @@ body{
 	top: 0px;
 	left: 0px;
 	overflow: auto;
-	font-size: 58px;
 }
 
 /*CSS for menubar on all pages but the home page*/
+.menubar {
+	clear: both;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menubar a{
+	display: inline-block;
+}
+
+.menubar li{
+	font-family: 'Courier New Bold', monospace;
+	font-size: 20px;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	width: 200px;
+	float: left;
+}
+
+.menubar li:hover{
+	background-color: white;
+	opacity: .7;
+	color: black;
+	font-weight: bold;
+}
+
 #menubar {
 	clear: both;
-	font-size: 50%;
+	font-size: 30px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -31,9 +60,9 @@ body{
 	font-family: 'Courier New Bold', monospace;
 	font-size: 20px;
 	display: inline-block;
-	color: black;
+	color: white;
 	text-align: center;
-	line-height: 69%;
+	line-height: 40px;
 	width: 200px;
 	float: left;
 }
@@ -130,8 +159,6 @@ a:visited{
 	padding: 30px;
 	font-family: 'Courier New';
 	overflow: scroll;
-	font-size: 27%;
-
 }
 
 h1 {
@@ -180,8 +207,6 @@ h1 {
 		top:340px;
 		position: relative;
 		text-align: center;
-		font-size: 27%;
-
     }
 
     #scroller ul {
@@ -233,7 +258,6 @@ h1 {
 	font-family: 'Courier New';
 	overflow: scroll;
 	text-align: center;
-	font-size: 27%;
 }
 
 h2 {
