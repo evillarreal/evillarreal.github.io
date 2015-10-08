@@ -1,6 +1,6 @@
 /*Stylesheet for Elizabeth Personal Website*/
 
-#background{
+body{
 	background-image: url('https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1922274_10152488036951483_1226603444349974965_n.jpg?oh=37a7145a0ae4f28e92093e2c307f53bd&oe=568621DB');
 	background-size: cover;
 	background-color: black;
@@ -11,12 +11,13 @@
 	top: 0px;
 	left: 0px;
 	overflow: auto;
+	font-size: 58px;
 }
 
 /*CSS for menubar on all pages but the home page*/
 #menubar {
 	clear: both;
-	font-size: 30px;
+	font-size: 50%;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -28,11 +29,11 @@
 
 #menubar li{
 	font-family: 'Courier New Bold', monospace;
-	font-size: 20pt;
+	font-size: 20px;
 	display: inline-block;
 	color: black;
 	text-align: center;
-	line-height: 40px;
+	line-height: 69%;
 	width: 200px;
 	float: left;
 }
@@ -109,9 +110,9 @@ a:visited{
 #title{
 	font-family: 'Courier New Bold', monospace;
 	color: white;
-	font-size: 58px;
 	text-align: center;
 	padding-top: 25%;
+	font-size: 58px;
 }
 
 /*CSS for about.html*/
@@ -129,6 +130,8 @@ a:visited{
 	padding: 30px;
 	font-family: 'Courier New';
 	overflow: scroll;
+	font-size: 27%;
+
 }
 
 h1 {
@@ -177,6 +180,8 @@ h1 {
 		top:340px;
 		position: relative;
 		text-align: center;
+		font-size: 27%;
+
     }
 
     #scroller ul {
@@ -228,6 +233,7 @@ h1 {
 	font-family: 'Courier New';
 	overflow: scroll;
 	text-align: center;
+	font-size: 27%;
 }
 
 h2 {
