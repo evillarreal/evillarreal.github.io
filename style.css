@@ -1,8 +1,11 @@
 /*Stylesheet for Elizabeth Personal Website*/
 
-body{
-	background-image: url('https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1922274_10152488036951483_1226603444349974965_n.jpg?oh=37a7145a0ae4f28e92093e2c307f53bd&oe=568621DB');
-	background-size: cover;
+
+
+html{
+	background-repeat:no-repeat;
+	background-image: url('Photos/background.jpg');
+	background-size: cover !important;
 	background-color: black;
 	position:absolute;
 	min-height: 100%;
