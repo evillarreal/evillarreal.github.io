@@ -4,12 +4,12 @@
 
 html{
 	background-repeat:no-repeat;
-	background-image: url('Photos/background.jpg');
+	background-image: url('..Photos/background.jpg');
 	background-size: cover !important;
 	position:absolute;
-	min-height: 100px;
+	min-height: 100%;
 	height: auto;
-	width: 100px;
+	width: 100%;
 	top: 0px;
 	left: 0px;
 	overflow: auto;
