@@ -4,7 +4,7 @@
 
 html{
 	background-repeat:no-repeat;
-	background-image: url('..Photos/background.jpg');
+	background-image: url('file:///Users/Elizabeth/Documents/evillarreal.github.io/Photos/background.jpg');
 	background-size: cover !important;
 	position:absolute;
 	min-height: 100%;
