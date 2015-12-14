@@ -142,6 +142,10 @@ a:visited{
 	font-size: 58px;
 }
 
+.hidden{
+	display: none;
+}
+
 /*CSS for about.html*/
 
 .resume_text{
