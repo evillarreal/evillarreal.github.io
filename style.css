@@ -14,7 +14,7 @@ html{
 /*CSS for menubar on all pages but the home page*/
 .menubar {
 	clear: both;
-	font-size: 30px;
+	font-size: 25px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -31,7 +31,7 @@ html{
 	color: black;
 	text-align: center;
 	line-height: 40px;
-	width: 200px;
+	width: 160px;
 	float: left;
 }
 
