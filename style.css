@@ -25,7 +25,7 @@ html{
 }
 
 .menubar li{
-	font-family: 'Century Gothic', monospace;
+	font-family: 'Century Gothic', Arial;
 	font-size: 20px;
 	display: inline-block;
 	color: black;
@@ -55,7 +55,7 @@ html{
 }
 
 #menubar li{
-	font-family: 'Century Gothic', monospace;
+	font-family: 'Century Gothic', Arial;
 	font-size: 20px;
 	display: inline-block;
 	color: black;
@@ -84,7 +84,7 @@ html{
 }
 
 #footer li{
-	font-family: 'Century Gothic', monospace;
+	font-family: 'Century Gothic', Arial;
 	font-size: 15.5px;
 	display: inline-block;
 	color: black;
@@ -124,7 +124,7 @@ a:visited{
 .title{
 	height: auto;
 	line-height: auto;
-	font-family: 'Century Gothic', monospace;
+	font-family: 'Century Gothic', Arial;
 	color: black;
 	font-size: 48px;
 	text-align: center;
@@ -135,7 +135,7 @@ a:visited{
 }
 
 #title{
-	font-family: 'Century Gothic', monospace;
+	font-family: 'Century Gothic', Arial;
 	color: black;
 	text-align: center;
 	padding-top: 25%;
@@ -159,13 +159,13 @@ a:visited{
 	margin-left: 15%;
 	margin-right: 22%;
 	padding: 30px;
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', Arial;
 	overflow: scroll;
 }
 
 h1 {
 	text-align: center;
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', Arial;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -205,7 +205,7 @@ h1 {
     }
     #scroller .captions ul {
     	color: white;
-		font-family: 'Century Gothic', monospace;
+		font-family: 'Century Gothic', Arial;
 		top:340px;
 		position: relative;
 		text-align: center;
@@ -257,14 +257,14 @@ h1 {
 	margin-left: 15%;
 	margin-right: 22%;
 	padding: 30px;
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', Arial;
 	overflow: scroll;
 	text-align: center;
 }
 
 h2 {
 	text-align: center;
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', Arial;
 	font-weight: bold;
 	font-size: 20px;
 }
