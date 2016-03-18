@@ -25,7 +25,7 @@ html{
 }
 
 .menubar li{
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	font-size: 20px;
 	display: inline-block;
 	color: black;
@@ -55,7 +55,7 @@ html{
 }
 
 #menubar li{
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	font-size: 20px;
 	display: inline-block;
 	color: black;
@@ -84,7 +84,7 @@ html{
 }
 
 #footer li{
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	font-size: 15.5px;
 	display: inline-block;
 	color: black;
@@ -124,7 +124,7 @@ a:visited{
 .title{
 	height: auto;
 	line-height: auto;
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	color: black;
 	font-size: 48px;
 	text-align: center;
@@ -135,7 +135,7 @@ a:visited{
 }
 
 #title{
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	color: black;
 	text-align: center;
 	padding-top: 25%;
@@ -149,7 +149,8 @@ a:visited{
 /*CSS for about.html*/
 
 .resume_text{
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: #FBFAF5;
+	opacity: .7;
 	color: black;
 	height: auto;
 	top: 170px;
@@ -159,13 +160,13 @@ a:visited{
 	margin-left: 15%;
 	margin-right: 22%;
 	padding: 30px;
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	overflow: scroll;
 }
 
 h1 {
 	text-align: center;
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -173,7 +174,8 @@ h1 {
 /*CSS for photogallery.html*/
 
 	.gallery{
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: #FBFAF5;
+		opacity: .7;
 		height: 35px;
 		margin-left: 15%;
 		width: 70%;
@@ -205,7 +207,7 @@ h1 {
     }
     #scroller .captions ul {
     	color: white;
-		font-family: 'Century Gothic', Helvetica, sans-serif;
+		font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 		top:340px;
 		position: relative;
 		text-align: center;
@@ -228,7 +230,8 @@ h1 {
 	}
 
     .gallery{
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: #FBFAF5;
+		opacity: .7;
 		height: 36px;
 		margin-left: 15%;
 		width: 70%;
@@ -247,7 +250,8 @@ h1 {
 /*CSS for writing.html*/
 
 .writing_text{
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: #FBFAF5;
+	opacity: .7;
 	color: black;
 	height: auto;
 	top: 170px;
@@ -257,14 +261,14 @@ h1 {
 	margin-left: 15%;
 	margin-right: 22%;
 	padding: 30px;
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	overflow: scroll;
 	text-align: center;
 }
 
 h2 {
 	text-align: center;
-	font-family: 'Century Gothic', Helvetica, sans-serif;
+	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 }
