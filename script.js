@@ -1,3 +1,5 @@
+// Currently all of this controls the scrolling function on the "Photos" page
+
  $(function(){
         var scroller = $('#scroller div.innerScrollArea');
         var scrollerContent = scroller.children('ul');

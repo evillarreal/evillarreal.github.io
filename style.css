@@ -1,14 +1,12 @@
-/*Stylesheet for Elizabeth Personal Website*/
+/*Stylesheet*/
 
-
-
+/*Background, marble photo and a black back-up*/
 html{
 	background-image: url('./Photos/whitemarble.jpg');
 	background-size: cover;
 	background-color: black;
 	height: 100%;
 	background-repeat: no-repeat;
-	background-color: black;
 }
 
 /*CSS for menubar on all pages but the home page*/
@@ -36,12 +34,11 @@ html{
 }
 
 .menubar li:hover{
-	/*background-color: white;*/
 	opacity: .7;
 	color: #990000;
-	/*font-weight: bold;*/
 }
 
+/*CSS for menubar on the home page ONLY*/
 #menubar {
 	clear: both;
 	font-size: 30px;
@@ -66,10 +63,8 @@ html{
 }
 
 #menubar li:hover{
-	/*background-color: white;*/
 	opacity: .7;
 	color: #990000;
-	/*font-weight: bold;*/
 }
 
 /*CSS for social media footer on the home page*/
@@ -103,7 +98,7 @@ html{
 	text-align: center;
 }
 
-/*CSS for hyperlinks*/
+/*CSS for hyperlinks, resume & writing pages*/
 a:link{
 	text-decoration: none;
 	color: black;
