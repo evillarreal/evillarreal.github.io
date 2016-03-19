@@ -42,7 +42,6 @@ html{
 	/*font-weight: bold;*/
 }
 
-/*HOMEPAGE #*/
 #menubar {
 	clear: both;
 	font-size: 30px;
@@ -52,8 +51,13 @@ html{
 }
 
 #menubar a{
+	display: inline-block;
+}
+
+#menubar li{
 	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	font-size: 20px;
+	display: inline-block;
 	color: black;
 	text-align: center;
 	line-height: 40px;
@@ -61,29 +65,7 @@ html{
 	float: left;
 }
 
-#menubar li{
-	display: inline-block;
-	position: relative;
-	height: 100%;
-}
-
-#more li{
-	position: relative;
-}
-
-
-#moremenu li{
-	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
-	font-size: 15px;
-	color: black;
-	text-align: center;
-	line-height: 40px;
-	width: 140px;
-	top: 0;
-	left: 0;
-}
-
-#menubar a:hover{
+#menubar li:hover{
 	/*background-color: white;*/
 	opacity: .7;
 	color: #990000;
