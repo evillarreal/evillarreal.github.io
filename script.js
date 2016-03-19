@@ -1,3 +1,14 @@
+ $(function() {
+    $("#moremenu").hide();
+    $("#more").css('cursor', 'pointer');
+    $("#more").hover(function(){
+        $("#moremenu").toggle(400);
+    });
+});
+
+
+
+
  $(function(){
         var scroller = $('#scroller div.innerScrollArea');
         var scrollerContent = scroller.children('ul');
