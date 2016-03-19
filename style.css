@@ -4,7 +4,7 @@
 html{
 	background-image: url('./Photos/whitemarble.jpg');
 	background-size: cover;
-	background-color: black;
+	background-color: #FBFAF5;
 	height: 100%;
 	background-repeat: no-repeat;
 }
@@ -113,9 +113,6 @@ a:visited{
 	color: gray;
 }
 
-
-/*CSS for index.html*/
-
 .title{
 	height: auto;
 	line-height: auto;
@@ -129,6 +126,7 @@ a:visited{
 	margin-top: 30px;
 }
 
+/*CSS for index.html*/
 #title{
 	font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif;
 	color: black;
@@ -141,7 +139,7 @@ a:visited{
 	display: none;
 }
 
-/*CSS for about.html*/
+/*CSS for resume.html*/
 
 .resume_text{
 	background-color: #FBFAF5;

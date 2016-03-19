@@ -51,5 +51,33 @@
         tweenToNewSpeed(controller.fullSpeed);
     	});
 
+// Code to adjust content positioning on resize
+function checkWidth() {
+    var width = $( window ).width();
+    if (width < 435) {
+        $( ".resume_text" ).css( "top", 300 );
+        $( ".writing_text" ).css( "top", 300 );
+        $( ".gr_grid_container").css( "top", 300 );
+    }else if (width < 509) {
+        $( ".resume_text" ).css( "top", 250 );
+        $( ".writing_text" ).css( "top", 250 );
+        $( ".gr_grid_container").css( "top", 250 );
+    } else if (width < 841) {
+        $( ".resume_text" ).css( "top", 210 );
+        $( ".writing_text" ).css( "top", 210 );
+        $( ".gr_grid_container").css( "top", 210 );
+    }else {
+        $( ".resume_text" ).css( "top", 170 );
+        $( ".writing_text" ).css( "top", 170 );
+        $( ".gr_grid_container").css( "top", 170 );
+    };
+    console.log($( window ).width())
+  // $( ".resume_text" ).css( "top", $( window ).width() );
+}
 
+// call checkWidth on resize
+$( window ).resize(checkWidth);
+
+// call checkWidth on load
+$( document ).ready(checkWidth);
 
